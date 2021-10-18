@@ -1,0 +1,9 @@
+var icon = require('vue-svgicon')
+icon.register({
+  '${name}': {
+    width: "24px",
+    height: "24px",
+    viewBox: ${viewBox},
+    data: `${data}`
+  }
+})
